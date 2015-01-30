@@ -5,27 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>BDC06E5D-571C-4155-806A-0531C0A26E32</string>
+	<string>80AA819D-AB4D-48CD-A18B-AA8E905A78FD</string>
 	<key>IDESourceControlProjectName</key>
 	<string>RandomItems</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ACBEA491-1280-4D05-B80A-4E542D8DE90A</key>
+		<string>https://github.com/nav2723/RandomItems.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RandomItems.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C85F97FE-6434-413D-8EBA-FD78FBB12025</key>
-		<string>../../RndItems</string>
+		<key>ACBEA491-1280-4D05-B80A-4E542D8DE90A</key>
+		<string>../..</string>
 	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nav2723/RandomItems.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C85F97FE-6434-413D-8EBA-FD78FBB12025</string>
+	<string>ACBEA491-1280-4D05-B80A-4E542D8DE90A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C85F97FE-6434-413D-8EBA-FD78FBB12025</string>
+			<string>ACBEA491-1280-4D05-B80A-4E542D8DE90A</string>
 			<key>IDESourceControlWCCName</key>
-			<string>RndItems</string>
+			<string>RandomItemsFromGithub</string>
 		</dict>
 	</array>
 </dict>
