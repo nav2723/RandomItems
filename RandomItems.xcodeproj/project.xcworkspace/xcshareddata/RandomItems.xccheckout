@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BDC06E5D-571C-4155-806A-0531C0A26E32</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RandomItems</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C85F97FE-6434-413D-8EBA-FD78FBB12025</key>
+		<string>../../RndItems</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C85F97FE-6434-413D-8EBA-FD78FBB12025</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C85F97FE-6434-413D-8EBA-FD78FBB12025</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RndItems</string>
+		</dict>
+	</array>
+</dict>
+</plist>
