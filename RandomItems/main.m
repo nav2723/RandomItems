@@ -10,6 +10,7 @@
 
 #import <Foundation/Foundation.h>
 #import "NASItem.h"
+#import "NASContainer.h"
 
 int main(int argc, const char * argv[])
 {
@@ -76,16 +77,50 @@ int main(int argc, const char * argv[])
         for (NASItem *item in items){
             NSLog(@"%@", item);
         }
-//NSLog for Bronze Challenge
-//NSrivastava
-//        NSLog(@"%@", items[10]);
         
+//NSLog for Bronze Challenge
+//-------------------------
+//Code for Bronze Challenge
+//-------------------------
+        
+//        NSLog(@"%@", items[10]);
+//-------------------------
 //Code for Silver Challenge
+//-------------------------
         NASItem *silverChallenge = [[NASItem alloc]initWithItemName:@"Silver" serialNumber:@"S1S1S"];
         NSLog(@"%@", silverChallenge);
         
+//-----------------------
+//Code for Gold Challenge
+//-----------------------
+        //Creates pointer for array that will contain the 10 random NASItems that will go into containerA
+        NSMutableArray *containerItemsA = [[NSMutableArray alloc] init];
         
-        items = nil;
+        //Creates containerA and initializes it with the NSMutableArray for its items (containerItemsA)
+        NASContainer *containerA = [[NASContainer alloc] initWithContainerName:@"Container A" containerItems:containerItemsA];
+        
+        //Creates 10 random NASItems which are added to containerA
+        for (int i = 0; i < 10; i++){
+            NASItem *containerRandomItem = [NASItem randomItem];
+            [containerA addItemToContainer:containerRandomItem];
+        }
+        
+        //Creates pointer for array that will contain the 10 random NASItems that will go into containerB
+        NSMutableArray *containerItemsB = [[NSMutableArray alloc] init];
+        
+        //Creates containerB and initializes it with the NSMutableArray for its items (containerItemsB)
+        NASContainer *containerB = [[NASContainer alloc] initWithContainerName:@"Container B" containerItems:containerItemsB];
+        
+        //Creates 5 random NASItems which are added to containerB
+        for (int j = 0; j < 5; j++){
+        NASItem *containerBRandomItem = [NASItem randomItem];
+        [containerB addItemToContainer:containerBRandomItem];
+        }
+        
+        //Adds containerB into containerA
+        [containerA addItemToContainer:containerB];
+        
+        NSLog(@"%@", containerA);
         
     }
     return 0;

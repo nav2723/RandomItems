@@ -11,6 +11,7 @@
 		E090F8EF1A7C1FCA008D953E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E090F8EE1A7C1FCA008D953E /* main.m */; };
 		E090F8F31A7C1FCA008D953E /* RandomItems.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E090F8F21A7C1FCA008D953E /* RandomItems.1 */; };
 		E090F8FB1A7C2304008D953E /* NASItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E090F8FA1A7C2304008D953E /* NASItem.m */; };
+		E0A8A3D51A8288C3009FBD88 /* NASContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A8A3D41A8288C3009FBD88 /* NASContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		E090F8F21A7C1FCA008D953E /* RandomItems.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RandomItems.1; sourceTree = "<group>"; };
 		E090F8F91A7C2304008D953E /* NASItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NASItem.h; sourceTree = "<group>"; };
 		E090F8FA1A7C2304008D953E /* NASItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NASItem.m; sourceTree = "<group>"; };
+		E0A8A3D31A8288C3009FBD88 /* NASContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NASContainer.h; sourceTree = "<group>"; };
+		E0A8A3D41A8288C3009FBD88 /* NASContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NASContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				E090F8FA1A7C2304008D953E /* NASItem.m */,
 				E090F8F21A7C1FCA008D953E /* RandomItems.1 */,
 				E090F8F01A7C1FCA008D953E /* Supporting Files */,
+				E0A8A3D31A8288C3009FBD88 /* NASContainer.h */,
+				E0A8A3D41A8288C3009FBD88 /* NASContainer.m */,
 			);
 			path = RandomItems;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0A8A3D51A8288C3009FBD88 /* NASContainer.m in Sources */,
 				E090F8EF1A7C1FCA008D953E /* main.m in Sources */,
 				E090F8FB1A7C2304008D953E /* NASItem.m in Sources */,
 			);
