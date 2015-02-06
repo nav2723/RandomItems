@@ -111,11 +111,10 @@ int main(int argc, const char * argv[])
         //Creates containerB and initializes it with the NSMutableArray for its items (containerItemsB)
         NASContainer *containerB = [[NASContainer alloc] initWithContainerName:@"Container B" containerItems:containerItemsB];
         
-        //Creates 5 random NASItems which are added to containerB
-        for (int j = 0; j < 5; j++){
+        //Creates 1 random NASItems which are added to containerB
+
         NASItem *containerBRandomItem = [NASItem randomItem];
         [containerB addItemToContainer:containerBRandomItem];
-        }
         
         //Adds containerB into containerA
         [containerA addItemToContainer:containerB];
